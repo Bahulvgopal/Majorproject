@@ -1,0 +1,99 @@
+/*index.html css page*/
+
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: white;
+}
+
+.main {
+
+   background-image: url('images/portrait.jpg');
+  background-size: cover;
+  height: 100vh;
+  position: re;
+  opacity: 1;
+  width: 100vw;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  height: 100%;
+  background: linear-gradient(to bottom, #176669 40%, rgba(255, 255, 255, 0.1) 100%);
+  position: absolute;
+  width: 100%;
+}
+h1{
+  color: white;
+  font-size: 3.3rem;
+  margin-left: 1.2rem;
+  margin-top: 7rem;
+  font: italic bold 40px/30px Georgia, serif;
+  text-shadow: 0px 2px black;
+  animation: text 1.0s ease-in;
+}
+.view{
+  margin-top: -0.3rem;
+  font-size: 3.5rem;
+  margin-left: 4rem;
+}
+/*
+.box{
+  width: 3.1rem;
+  height: 3.1rem;
+  background-color: white;
+  margin: 10.7rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img2{
+  width: 2rem;
+}*/
+button{
+  width: 3.3rem;
+  height: 3.3rem;
+  margin-left: 10.5rem;
+  margin-top: 5rem;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: inset -7px -7px 17px #c1c1c1,
+            inset 7px 7px 17px #ffffff;
+/*  animation: popup 0.5s ease-in; *//*animation of button*/
+}
+img{
+  width: 2rem;
+}
+/* animation */
+@keyframes text{
+  from{
+    opacity : 0;
+    transform: translateX(-30px);
+  }
+  to{
+    opacity :1;
+    transform: translateX(0);
+  }
+}
+/*
+@keyframes popup{
+  from{
+    transform: scale(0);
+  }
+  to{
+    transform: scale(1);
+  }
+}
+
+animation property 
+*/
+
+button:hover{
+  background-color: #dc5d19;
+}
+/* profile icon */
+.person{
+  margin-left: 21.5rem;
+}

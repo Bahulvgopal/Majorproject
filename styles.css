@@ -1,0 +1,96 @@
+
+/*login.html css*/
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: white;
+}
+.log{
+  background-image: url('images/portrait.jpg');
+  background-size: cover;
+  height: 100vh;
+  position: re;
+  opacity: 1;
+  width: 100vw;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.page{
+  
+  width: 20rem;
+  height: 30rem;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4.5px );
+  -webkit-backdrop-filter: blur( 4.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  
+  font-size: 4rem;
+  font: italic bold 20px/20px Georgia, serif;
+  color: white;
+}
+div>h1{
+  margin-top: 0.7rem;
+  text-shadow: 2px 2px 4px rgba(168, 0, 0, 0.5);
+  text-align: center;
+}
+
+.password-container {
+  position: relative;
+}
+
+.show-password {
+  position: absolute;
+  top: 10%;
+  right: 30px;
+  cursor: pointer;
+  color: #6d809e;
+  font-size: 0.7rem;
+}
+input{
+  border: none;
+  opacity: 0.5;
+  border-radius: 6px;
+  font-size: 10px;
+}
+label{
+  font-size: 0.9rem;
+}
+.loginbtn{
+  border: none;
+  background-color: white;
+  border-radius: 20px ;
+  margin-top: 1.4rem;
+  font-size: 0.9rem;
+  width: 6rem;
+  height: 2rem;
+  color: #6d809e;
+}
+/*
+.circle{
+  background-color: white;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50px;
+  margin-left: 8.5rem;
+  margin-top: 2rem;
+}
+img{
+  text-align: center;
+}*/
+
+#atag{
+  color: dimgrey;
+  text-decoration: none;
+  font-size: 0.8rem;
+  
+}
+p{
+  color: white;
+  font-size: 0.8rem;
+  margin-left: 5rem;
+}
